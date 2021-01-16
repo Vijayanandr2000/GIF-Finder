@@ -1,0 +1,45 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.head img{
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    height: 100%;
+}
+.head{
+    text-align: center;
+    color: crimson;
+    margin-top: 80px;
+}
+.input{
+    text-align: center;
+    margin-top: 20px;
+    
+}
+.input input{
+    width: 400px;
+    height: 35px;
+    background-color: darkgray;
+    font-size: larger;
+    padding: 15px;
+    letter-spacing: 2px;
+    border: yellow;
+    margin-right: 5px;
+}
+.input button{
+    width: 90px;
+    height: 30px;
+    font-size: larger;
+    background-color: rgba(62, 130, 255, 0.959);
+    color: white;
+    letter-spacing: 2px;
+    border: yellow;
+}
+object{
+    align-items: center;
+}
